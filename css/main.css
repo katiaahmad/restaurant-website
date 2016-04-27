@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-title {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  margin: 0;
+  display: inline;
+  line-height: 1.4;
+}
+
+.banner-content {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 1rem 0 1rem 0;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  bottom: 1em;
+  transform: translateX(-50%);
+  z-index: 100;
+  max-width: 45rem;
+  width: 100%;
+  padding: 1.5rem 0 0 1.5rem;
+}
+
+
+header {
+  padding: .5em 0;
+  background-color: #ccc;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+  nav li {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size:  110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1,
+  nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+  h1 {
+  margin-bottom: 0;
+  margin-right: 1.5rem;
+}
+}
