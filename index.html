@@ -2,99 +2,139 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Market Place</title>
-  <link href="css/main.css" rel="stylesheet">
+  <title>The Market Place</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,300italic,400italic,700,700italic,900" rel="stylesheet">
 </head>
-
 <body>
   <header>
-
-  <h1>Market Place</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Location</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <div class="banner">
-    <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
-  </div>
-
-  <section class="b1">
-    <div class="order">
-      <h2>Special Healthy Food</h2>
-      <p>The Market Place boasts a unique combination of healthy, fresh, organic dishes, in a family friendly atmosphere. Our pay by weight buffet offers a complete range of vegan and gluten-free choices, made fresh seven days a week. Whether it's hot food, fresh salads or desserts, you'll enjoy a flavourful healthy meal, with soft music in a bright open handicap accessible dining area.</p>
-      <a class="btn btn-ghost" href="#">Organic</a>
-    </div>
-
-    <div class="order">
-      <h2>We Take Care Of Your Allergy</h2>
-      <p>If you suffer from a food allergy or intolerance, please let your server know upon placing your order. To help, our easy to use guide covers the most common allergens as well as suitability for vegetarians or vegans. Please note we have a full Gluten Free menu available here.</p>
-      <a class="btn btn-ghost" href="#">Gluten Free</a>
-    </div>
-
-    <div class="order">
-      <h2>24/7 Fresh Food</h2>
-      <p>Whether it's hot food, fresh salads or desserts, you'll enjoy 24/7 a flavourful healthy meal, with soft music in a bright open handicap accessible dining area.</p>
-      <a class="btn btn-ghost" href="#">24/7</a>
-    </div>
-  </section>
-
-  <section class="cards b1">
-    <div class="card">
-      <div class="card-img">
-        <img src="images/placeholder-circle.svg" alt="placeholder">
+    <img class="toggle" src="images/nav-icon.svg" alt="toggle">
+    <h1><img src="images/marketplace-300x62.gif" alt="" /></h1>
+    <nav>
+      <ul>
+        <li class="nav"><a href="#menu">Menu</a></li>
+        <li class="nav"><a href="#special">Special</a></li>
+        <li class="nav"><a href="#service">Best Service</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <figure>
+      <div class="banner-img">
+        <img src="images/MKT-PLace.jpg" alt="banner image">
       </div>
-      <div class="card-body">
-        <h2>Meals</h2>
-        <p>Whether it's hot food, fresh salads or desserts, you'll enjoy 24/7 a flavourful healthy meal</p>
+      <figcaption>
+        <h2>BEST FOOD PLACE IN THE COLLEGE</h2>
+        <p class="banner-body">We Care For You!</p>
+        <a href="#menu">
+          <span class="btn">Menu</span>
+        </a>
+      </figcaption>
+    </figure>
+    <section class="link-cards">
+      <a href="#menu">
+        <div class="menu-link-card">
+          <h2 class="header-link-card">MENU</h2>
+          <img class="link-card-img menu-img" src="images/greenleaf-logo.png" alt="Menu">
+        </div>
+      </a>
+      <a href="#drinks">
+        <div class="menu-link-card">
+          <h2 class="special-link-card">SPECIAL</h2>
+          <img class="link-card-img" src="images/burger-meal.png" alt="Menu">
+        </div>
+      </a>
+      <a href="#meals">
+        <div class="menu-link-card">
+          <h2 class="service-link-card">SERVICE</h2>
+          <img class="link-card-img" src="images/hotel-icon-room-service-clip-art-red-md.png" alt="Menu">
+        </div>
+      </a>
+    </section>
+    <section class="menu-cards">
+      <h2 id="menu">MENU</h2>
+      <ul class="menu-card">
+        <li class="card">
+          <div class="card-img">
+            <img src="images/Cocktail-Green-Agave-icon.png" alt="#">
+          </div>
+          <div class="card-body">
+            <h3 id="drinks">Drinks</h3>
+            <p>Cold, refreshing drinks of many kinds and sizes.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-img">
+            <img src="images/food-teriyaki-chicken-small.png" alt="#">
+          </div>
+          <div class="card-body">
+            <h3 id="meals">Meals</h3>
+            <p>Hot and ready to go at your every convenience.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-img">
+            <img src="images/s2.png" alt="#">
+          </div>
+          <div class="card-body">
+            <h3>Snacks</h3>
+            <p>We have unbelievable delicious snacks!</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="special-cards">
+      <h2 id="special">SPECIAL</h2>
+      <div class="special-card">
+        <div class="special-card-body">
+          <h3>Poutine</h3>
+          <p>A delicious, Sour Cream Poutine will make your mouth water.</p>
+        </div>
+        <div class="special-img">
+          <img src="images/Hero-Poutine.png" alt="#">
+        </div>
       </div>
+    </section>
+    <section class="service-cards">
+      <h2 id="service">SERVICE</h2>
+      <div class="service-card">
+        <div class="service-img">
+          <img src="images/service_color.png" alt="#">
+        </div>
+        <div class="service-card-body">
+          <h3>Best Service</h3>
+          <p>On the go? We have service that is speedy, efficent and ready to serve you.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="contact-body">
+      <h4>Contact</h4>
+      <p class="footer-body">Algonquin College</p>
+      <p class="footer-body">613-874-2587</p>
+      <p class="footer-body">info@marketplace.com</p>
     </div>
-    <div class="card">
-      <div class="card-img">
-        <img src="images/placeholder-circle.svg" alt="placeholder">
-      </div>
-      <div class="card-body">
-        <h2>Snacks</h2>
-        <p>In a hurry? Stop by for the perfect snack.</p>
-      </div>
+    <div class="hours-body">
+      <h4>Hours</h4>
+      <p class="footer-body">Mon-Fri: 7am-7pm</p>
+      <p class="footer-body">Sat: 7am-3pm</p>
     </div>
-    <div class="card">
-      <div class="card-img">
-        <img src="images/placeholder-circle.svg" alt="placeholder">
-      </div>
-      <div class="card-body">
-        <h2>Drinks</h2>
-        <p>Cold, refreshing drinks of many kinds and sizes.</p>
-      </div>
+    <div class="social-media">
+      <a href="https://twitter.com">
+        <img class="social-media-icon" src="images/Twitter_logo_blue.png" alt="#">
+      </a>
+      <a href="https://www.facebook.com">
+        <img class="social-media-icon" src="images/social_facebook_box_blue.png" alt="#">
+      </a>
+      <a href="https://www.linkedin.com">
+        <img class="social-media-icon" src="images/2000px-Linkedin_icon.svg.png" alt="#">
+        </a>
+      <a href="https://www.instagram.com">
+        <img class="social-media-icon" src="images/instagram-logo-png.png" alt="#">
+        </a>
     </div>
-  </section>
-
-  <section class="b1">
-    <h2>Speciality Healthy Food</h2>
-      <h3>We care for you!</h3>
-      <p>We have service that is speedy, efficent and ready to serve you.</p>
-      <h3>24/7 Fresh food</h3>
-      <p>Hot and ready to go at your every convenience.</p>
-  </section>
-
-   <div class="order">
-     <h2>Special</h2>
-     <p>A delicious, Sour Cream Poutine will make your mouth water.</p>
-     <a class="btn btn-ghost" href="#">Copouns</a>
-   </div>
-
-<footer>
-  <p>
-   Copyright 2016
-  </p>
-</footer>
-
-
+  </footer>
 </body>
 </html>
