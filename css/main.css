@@ -16,6 +16,15 @@ body {
   margin: 0;
 }
 
+footer {
+  background-color: grey;
+  padding: 1em 0;
+}
+
+.b1 {
+  padding-bottom: 1em;
+  border-bottom: 1px solid black; 
+}
 .img-flex {
   width: 100%;
   display: block;
@@ -36,11 +45,6 @@ body {
   line-height: 1.4;
 }
 
-.banner-content {
-  font-size: 2rem;
-  font-style: italic;
-  margin: 1rem 0 1rem 0;
-}
 
 .text {
   position: absolute;
@@ -87,7 +91,6 @@ body {
   margin: 0;
   padding: 0;
   display: block;
-
 }
 
 .card {
@@ -151,8 +154,6 @@ nav a:hover {
 .order {
   padding: 0.4em;
   display: inline-block;
-  max-width: 80%;
-  text-align: left;
 }
 
 
@@ -201,18 +202,19 @@ nav a:hover {
   .card {
   width: 30.5%;
   display: inline-block;
+  padding: 0.5em;
 }
 
 .card-img {
-  display: block;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1rem;
 }
 
-li.card {
-  vertical-align: text-top;
-  margin-bottom: 0;
+
+.order {
+width: 30%;
+text-align: left;
 }
 
 }
@@ -224,7 +226,7 @@ li.card {
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
   header {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -265,7 +267,5 @@ li.card {
   line-height: 1.4;
 }
 
-.order {
-  max-width: 30%
-}
+
 }
